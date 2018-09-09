@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/bare.min.css">
 </head>
 <body data-gr-c-s-loaded="true" style="background-color:#1c1c1c;padding-top: 0px;color:#fff;">
-    <section class="banner" style="background-color: #2c2c2c; padding-top: 10vh; padding-bottom: 10vh">
+    
+    <section class="banner">
+        <img src="./img/cmrit.JPG">
         <section>
             <h1>Hack It On</h1>
             <p>Code. Eat. Repeat</p>
@@ -195,13 +197,21 @@
     </section>
     <!--FOOTER-->
     <section>
-        <h2>Reach Us</h2>
+        <h2 style="text-align: center;">Reach Us</h2>
         <grid>
             <div col="1/3"></div>
             <div col="1/3">
-                <a><img src="./img/twitter" alt="Twitter"></a>
-                <a><img src="./img/facebook" alt="Facebook"></a>
-                <a><img src="./img/instagram" alt="Instagram"></a>
+                <grid>
+                    <div col="1/3">   
+                        <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
+                    </div>
+                    <div col="1/3">   
+                        <a href="#"><img src="./img/twitter.jpg" alt="Twitter"></a>
+                    </div>
+                    <div col="1/3">   
+                        <a href="#"><img src="./img/facebook.png" alt="Facebook"></a>
+                    </div>
+                </grid>
             </div>
             <div col="1/3"></div>
         </grid>
@@ -212,8 +222,26 @@
         <style>
             
             .banner{
+                background-color: #2c2c2c; 
+                padding-top: 5vh; 
+                padding-bottom: 20vh;
                 text-align: center;
                 color: white;
+/*
+                background-image: url(img/cmrit.JPG);
+                background-repeat: no-repeat;
+                background-size: cover;
+*/
+                
+            }
+            
+            .banner img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                filter: grayscale(100%) blur(2px);
             }
             
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
