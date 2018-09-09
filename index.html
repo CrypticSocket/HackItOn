@@ -51,32 +51,35 @@
     
     <section class="gridclass" style="background-color:#1c1c1c">
         <h2 style="padding-bottom: 5vh; text-align: center;">Schedule</h2>
-        <grid xx class="sec_class">
-            <div col="1/2" txt=c xx class="nonempty left">
-                <h3>Opening Ceremony</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+        <section>
+            <div style="background-color:#111; border-bottom:3px solid #4d6; color:#4d6; text-align:center; padding-top:1em; ">
+                <h2>Day 1</h2>
+                <h3>29.09.18</h3>
             </div>
-
-            <div col="1/2" class="empty">
-
-            </div>
-
-            <div col="1/2" class="empty">
-
-            </div>
-
-            <div col="1/2" txt=c xx class="nonempty right">
+            
+        <grid style="width:70%;margin:auto;" xx class="sec_class">
+            <div col="1/2" txt=c xx class="nonempty left day1">
                 <h3>Registration</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+                <h5>12:00</h5>                   
+            </div>
+
+            <div col="1/2" class="empty">
+
+            </div>
+
+            <div col="1/2" class="empty">
+
+            </div>
+
+            <div col="1/2" txt=c xx class="nonempty right day1">
+                <h3>Opening Ceremony</h3>
+                <h5>15:00</h5>                   
             </div>
             
 
-            <div col="1/2" txt=c xx class="nonempty left">
-                <h3>Lunch</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+            <div col="1/2" txt=c xx class="nonempty left day1">
+                <h3>Event Begins</h3>
+                <h5>16:00</h5>                   
             </div>
 
             <div col="1/2" class="empty">
@@ -87,58 +90,43 @@
 
             </div>
 
-            <div col="1/2" txt=c xx class="nonempty right">
-                <h3>Goodies Distribution</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
-            </div>
-            <div col="1/2" txt=c xx class="nonempty left">
+            <div col="1/2" txt=c xx class="nonempty right day1">
                 <h3>Dinner</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+                <h5>21:00</h5>
             </div>
-
-            <div col="1/2" class="empty">
-
+        </grid>
+        
+            <div style="background-color:#111; border-bottom:3px solid #84c; color:#84c; text-align:center; padding-top:1em; ">
+                <h2>Day 2</h2>
+                <h3>30.09.18</h3>
             </div>
-
-            <div col="1/2" class="empty">
-
+        <grid style="width:70%;margin:auto;" xx class="sec_class">
+            <div col="1/2" txt=c xx class="nonempty left day2">
+                <h3>Technical Inspection</h3>
+                <h5>10:00</h5>                   
             </div>
-            <div col="1/2" txt=c xx class="nonempty right">
-                <h3>Tshirt Distribution</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+                    <div col="1/2" class="empty">
+                    </div>
+                    <div col="1/2" class="empty">
+                    </div>
+                    <div col="1/2" txt=c xx class="nonempty right day2">
+                <h3>Lunch</h3>
+                <h5>13:00</h5>                   
             </div>
-            <div col="1/2" txt=c xx class="nonempty left">
-
-                <h3>Breakfast</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
+            <div col="1/2" txt=c xx class="nonempty left day2">
+                <h3>Event Ends</h3>
+                <h3>Evaluation</h3>
+                <h5>16:00</h5>                   
             </div>
-
-            <div col="1/2" class="empty">
-
+                    <div col="1/2" class="empty">
+                    </div>
+                    <div col="1/2" class="empty">
+                    </div>
+                    <div col="1/2" txt=c xx class="nonempty right day2">
+                <h3>Dinner</h3>
+                <h5>21:00</h5>
             </div>
-
-            <div col="1/2" class="empty">
-
-            </div>
-
-            <div col="1/2" txt=c xx class="nonempty right">
-                <h3>Presentation and evaluation By Judges</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
-            </div>
-            <div col="1/2" txt=c xx class="nonempty left">
-                <h3>Prize Distribution &amp; Feedback Session</h3>
-                <h4>dd/mm</h4>
-                <h5>HH:MM</h5>                   
-            </div>
-
-            <div col="1/2" class="empty">
-
-            </div>
+        </grid>
 
             <!-- End of Timeline -->
 
@@ -300,15 +288,40 @@
             
             .left {
                 
-                border-right:1px solid #4d6;
+                border-right:1px solid;
                 
             }
             
             .right {
                 
-                border-left:1px solid #4d6;
+                border-left:1px solid;
                 
             }
+            
+            .day1 {
+            
+                border-color:#4d6;
+            
+            }
+            
+            .day1 h5{
+            
+                color:#4d6;
+                
+            }
+                        
+            .day2 {
+            
+                border-color:#84c;
+                
+            }
+            
+            .day2 h5{
+            
+                color:#84c;
+            
+            }
+                    
             
             .pic-title{
                 background-color:#111;
