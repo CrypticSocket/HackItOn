@@ -215,12 +215,12 @@
 
         <!--SPONSORS-->
 
-        <section class="sec_class">
+        <section class="sec_class" style="color: white;background-color:#131313">
             <grid>
                 <div col="1/3"></div>
                 <div col="1/3">
                     <section>
-                        <h2 txt="c" style="color: white;">Sponsors</h2>
+                        <h2 txt="c" style="color: white;background-color:#131313">Sponsors</h2>
                         <div class="slide">
                             <img src="./img/skill.png">
                             <img src="./img/frapp.png">
@@ -260,7 +260,9 @@
                 </div>
             </grid>
         </section>
-
+        
+        <section class="credits" style="background-color:#0d0d0d;height:2.5em;text-align:center;font-size:1.5em">
+            This website was designed by <a class="l1" href="https://github.com/CrypticSocket">CrypticSocket</a> and <a class="l2" href="https://github.com/Greymtr">Greymtr</a>
         <style>
 
             body{
@@ -379,7 +381,7 @@
 
             .pic-title{
                 background-color:#111;
-                border-top:1px solid #c84;
+                border-top:4px solid #c84;
                 color:white;
             }
 
@@ -397,6 +399,40 @@
                 background-color:#191; 
 
             }
+            
+            .footer grid{
+            
+                margin:0;
+
+                
+                }
+                
+            .l1{
+            
+                color:#4d8;
+                
+            }
+            
+            .l2{
+            
+                color:#4d8;
+                
+            }
+            
+            .credits a, .credits a:visited{
+            
+                text-decoration:none;
+            
+            }   
+            
+            .credits a:hover, .credits a:focus{
+            
+                text-decoration:underline;
+            
+            }
+                     
+            
+
 
             @media (max-width: 50rem)
             {   
@@ -435,8 +471,16 @@
                 .logo{
                     width: 20rem;
                 }
+                
             }
-
+            
+            
+            [btn][primary]:hover, button:not([class])[primary]:hover, button[xx][primary]:hover, input[type=submit][primary]:hover{
+            
+                background-color:#6c6;
+            
+            }
+            
         </style>
 
         <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
