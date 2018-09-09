@@ -45,11 +45,10 @@
             </grid>
         </section>
     </section>
-    <hr>
     
         <!--  Timeline Starts  -->
     
-    <section class="gridclass" style="background-color:#1c1c1c">
+    <section class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#191919">
         <h2 style="padding-bottom: 5vh; text-align: center;">Schedule</h2>
         <section>
             <div style="background-color:#111; border-bottom:3px solid #4d6; color:#4d6; text-align:center; padding-top:1em; ">
@@ -57,7 +56,7 @@
                 <h3>29.09.18</h3>
             </div>
             
-        <grid style="width:70%;margin:auto;" xx class="sec_class">
+        <grid style="width:70%;margin:auto; padding-bottom:15vh;" xx class="sec_class">
             <div col="1/2" txt=c xx class="nonempty left day1">
                 <h3>Registration</h3>
                 <h5>12:00</h5>                   
@@ -96,6 +95,8 @@
             </div>
         </grid>
         
+
+
             <div style="background-color:#111; border-bottom:3px solid #84c; color:#84c; text-align:center; padding-top:1em; ">
                 <h2>Day 2</h2>
                 <h3>30.09.18</h3>
@@ -114,7 +115,8 @@
                 <h5>13:00</h5>                   
             </div>
             <div col="1/2" txt=c xx class="nonempty left day2">
-                <h3>Event Ends</h3>
+                <h3>Hack Ends</h3>
+                <h6>+</h6>
                 <h3>Evaluation</h3>
                 <h5>16:00</h5>                   
             </div>
@@ -131,15 +133,9 @@
             <!-- End of Timeline -->
 
 
-            <div col="3/7">
-                <span> </span>
-            </div>
-
-            <br>
-        </grid>
     </section>
-    <section txt=c>
-        <hr>
+    </section>
+    <section txt=c style="background-color:#161616; padding-bottom: width:100%;" class="gridclass">
         <section>
             <h2 style="padding-bottom: 5vh">Our Organisers</h2>
             <grid>
@@ -187,6 +183,9 @@
             </div>
         </grid>
     </section>
+    
+    
+    
     <!--FOOTER-->
     <section class="footer">
         <h2>Reach Us</h2>
@@ -260,8 +259,8 @@
             .sec_class{
                 text-align: center;
                 color: black;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
+                padding-top: 5vh;
+                padding-bottom: 5vh;
             }
             
             grid {
@@ -344,7 +343,26 @@
                     margin: 1rem;
                     padding: 1rem;
                     width: 100%;
-                    border-left: 2px solid #f55;
+                    border-left: 3px solid;
+                    border-right: 0px;
+                }
+                
+                .left .right{
+                
+                    border:0px solid;
+                
+                }
+                
+                .day1 {
+                
+                    border-color:#4a6;
+                
+                }
+                
+                .day2{
+                
+                    border-color:#84c
+                
                 }
                 
                 .empty {
