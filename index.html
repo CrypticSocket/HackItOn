@@ -14,9 +14,9 @@
 
     <body data-gr-c-s-loaded="true">
         <section class="banner">
-            <img src="./img/cmrit.JPG">
+            <img src="./img/cmrit.JPG" class="img_bg">
             <section>
-                <img src="./hackiton.png">
+                <img src="./img/hackiton.png" class="logo">
                 <p>Code. Eat. Repeat</p>
             </section>
             <section>
@@ -223,6 +223,14 @@
         <section class="footer" style="background-color:#101010; padding-top:5vh;" >
             <h2>Reach Us</h2>
             <grid>
+                <div col="1/3">
+                    <h4><strong>CMR Institute of Technology</strong></h4>
+                    <p>132, AECS Layout, ITPL Main Road<br>
+                        Kundalahalli, Bangalore 560037, India<br>
+                        <strong>Piyush Raj-9148047624</strong><br>
+                        <strong>Viral - 8197070241</strong>
+                    </p>
+                </div>
                 <div col="1/3"></div>
                 <div col="1/3">
                     <grid>
@@ -237,7 +245,6 @@
                         </div>
                     </grid>
                 </div>
-                <div col="1/3"></div>
             </grid>
         </section>
 
@@ -264,13 +271,17 @@
 
             }
 
-            .banner img{
+            .img_bg{
                 position: absolute;
                 left: 0;
                 top: 0;
                 width: 100vw;
                 height: 100vh;
                 filter: grayscale(100%) blur(3px) brightness(60%);
+            }
+            
+            .logo{
+                width: 25rem;
             }
 
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
