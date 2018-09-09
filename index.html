@@ -14,9 +14,9 @@
 
     <body data-gr-c-s-loaded="true">
         <section class="banner">
-            <img src="./img/cmrit.JPG">
+            <img src="./img/cmrit.JPG" class="bgimg">
             <section>
-                <img src="./hackiton.png">
+                <img src="./img/hackiton.png" class="logo">
                 <p>Code. Eat. Repeat</p>
             </section>
             <section>
@@ -244,13 +244,18 @@
 
             }
 
-            .banner img{
+            .bgimg{
                 position: absolute;
                 left: 0;
                 top: 0;
                 width: 100vw;
                 height: 100vh;
                 filter: grayscale(100%) blur(3px) brightness(60%);
+            }
+            
+            .logo{
+                width: 25rem;
+                height: auto;
             }
 
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
