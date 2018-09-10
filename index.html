@@ -23,7 +23,7 @@
                 <h2 class="fontsize1">Code | Build | Hack</h2>
                 <h4 class="fontsize2">29-30 September | CMR Institute of Technology</h4>
                 <br>
-                <a href="http://imojo.in/hackiton" target="blank_"><button round primary>Register Now!</button></a><br>
+                <a href="http://imojo.in/hackiton" target="blank_"><button round primary id="regbut">Register Now!</button></a><br>
             </section>
         </section>
         
@@ -406,13 +406,20 @@
             }
 
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
-                background-color:#4b4; 
+/*                background-color:#4b4; */
+                background-color: #ffc700;
                 font-size:2em; 
                 padding:0.5em 0.7em;
                 border: 0px;
                 padding-top: 1em;
                 padding-bottom: 1em;
                 padding-right: 0.75em;
+                font-family: 'OfficeCodeProDRegular';
+                color: black;
+            }
+            
+            #regbut:hover{
+                background-color: #4b4;
             }
             
             .link:hover{
