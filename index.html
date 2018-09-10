@@ -38,7 +38,6 @@
                 <ul txt="c">
                     <li><a href="#Register">Register !</a></li>
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Theme">Theme</a></li>
                     <li><a href="#Schedule">Schedule</a></li>
                     <li><a href="#Cordinators">Cordinators</a></li>
                     <li><a href="#Sponsors">Sponsors</a></li>
@@ -93,15 +92,15 @@
         <section class="sec_class" style="background-color:#1c1c1c;color:#fff;">
             <section>
                 <h2 style="padding-bottom: 2vh">About</h2>
-                <grid>
+                <grid class="flex">
                     <div col="1/2">
-                        <card style="background-color:#111;color:#fff;">
+                        <card style="background-color:#111;color:#fff;height:100%">
                             <h3>Hack-It-On</h3>
                             <p>Hosted by CMRIT, Hack-It-On is an event to get your Innovation and creativity going. The event which spans 24 hours is all about cooking up ideas and making something new. The competition is the place for coding enthusiasts and techies interested in battle of new ideas.</p>
                         </card>
                     </div>
                     <div col="1/2">
-                        <card style="background-color:#111;color:#fff;">
+                        <card style="background-color:#111;color:#fff;height:100%">
                             <h3>CMRIT</h3>
                             <p>Established in 2000, the CMR Institute of Technology imparts quality, pragmatic education in engineering and management to help students hone their analytical abilities and develop their creative thinking skills. CMRIT meets the rapidly growing need for technology professionals by nurturing young minds in an innovative and progressive learning environment. Situated in the very heart of South India’s IT corridor, the CMRIT campus in Whitefield, Bangalore is centrally located, well connected and easily accessible.</p>
                         </card>
@@ -118,12 +117,13 @@
                 <div style="background-color:#111; border-bottom:3px solid #4d6; color:#4d6; text-align:center; padding-top:1em; ">
                     <h2>Day 1</h2>
                     <h3>29.09.18</h3>
+                    <h5 style="font-size:2em;color:#354;">Sat</h5>
                 </div>
 
             <grid style="width:70%;margin:auto; padding-bottom:15vh;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day1">
                     <h3>Registration</h3>
-                    <h5>12:00</h5>                   
+                    <h5>12:00 - 14:30</h5>                   
                 </div>
 
                 <div col="1/2" class="empty">
@@ -136,7 +136,7 @@
 
                 <div col="1/2" txt=c xx class="nonempty right day1">
                     <h3>Opening Ceremony</h3>
-                    <h5>15:00</h5>                   
+                    <h5>15:00 - 15:30</h5>
                 </div>
 
 
@@ -155,7 +155,15 @@
 
                 <div col="1/2" txt=c xx class="nonempty right day1">
                     <h3>Dinner</h3>
-                    <h5>21:00</h5>
+                    <h5>20:00 - 21:00</h5>
+                </div>
+                
+                
+                <div col="1/2" txt=c xx class="nonempty left day1">
+                    <h3>"Indulging Activity"</h3>
+                    <h5>22:30 - 23:30</h5>                   
+                </div>
+                <div col="1/2" class="empty">
                 </div>
             </grid>
 
@@ -164,32 +172,45 @@
                 <div style="background-color:#111; border-bottom:3px solid #84c; color:#84c; text-align:center; padding-top:1em; ">
                     <h2>Day 2</h2>
                     <h3>30.09.18</h3>
+                    <h5 style="font-size:2em;color:#435;">Sun</h5>
                 </div>
             <grid style="width:70%;margin:auto;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day2">
-                    <h3>Technical Inspection</h3>
-                    <h5>10:00</h5>                   
+                    <h3>Nap Time</h3>
+                    <h5>03:00</h5>                   
                 </div>
-                        <div col="1/2" class="empty">
-                        </div>
-                        <div col="1/2" class="empty">
-                        </div>
-                        <div col="1/2" txt=c xx class="nonempty right day2">
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" txt=c xx class="nonempty right day2">
+                    <h3>Breakfast</h3>
+                    <h5>08:00 - 09:00</h5>                   
+                </div>
+                <div col="1/2" txt=c xx class="nonempty left day2">
+                    <h3>Technical Inspection</h3>
+                    <h5>10:00</h5>             
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" txt=c xx class="nonempty right day2">
                     <h3>Lunch</h3>
-                    <h5>13:00</h5>                   
+                    <h5>13:00 - 14:00</h5> 
                 </div>
                 <div col="1/2" txt=c xx class="nonempty left day2">
                     <h3>Hack Ends</h3>
                     <h3>Evaluation</h3>
-                    <h5>16:00</h5>                   
+                    <h5>16:00</h5>      
                 </div>
-                        <div col="1/2" class="empty">
-                        </div>
-                        <div col="1/2" class="empty">
-                        </div>
-                        <div col="1/2" txt=c xx class="nonempty right day2">
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" txt=c xx class="nonempty right day2">
                     <h3>Ceremony</h3>
-                    <h5>18:00</h5>
+                    <h5>18:00</h5> 
                 </div>
             </grid>
 
@@ -539,6 +560,16 @@
                 background-color:#111 !important; 
             
             }
+            
+            .flex{
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:center;
+                align-items: stretch;
+                align-content: center;
+            }
+
 
             @media (max-width: 50rem)
             {   
