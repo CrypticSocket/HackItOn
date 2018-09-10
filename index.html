@@ -13,7 +13,7 @@
     
 
     <body data-gr-c-s-loaded="true">
-        <section class="banner">
+        <section id="Register" class="banner">
             <img src="./img/cmrit.JPG" class="img_bg">
             <section style="padding-bottom:0.5em">
                 <img src="./img/hackiton.png" class="logo" >
@@ -25,8 +25,33 @@
                 <a href="http://imojo.in/hackiton" target="blank_"><button round primary>Register Now!</button></a><br>
             </section>
         </section>
-        <section txt = "c" class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#1e1e1e">
-            <h2 style="font-size:1.75em;padding-bottom: 5vh; text-align: center;">All You Need To Know</h2>
+        
+        
+        <!-- NAV -->
+        
+        <nav style="background-color:#111; color:#4d6; border-bottom:0px; text-align:center; font-size:2.5em;">
+            <label>
+                <input type="checkbox">
+                <header>
+                </header>
+                <ul txt="c">
+                    <li><a href="#Register">Register !</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Schedule">Schedule</a></li>
+                    <li><a href="#Cordinators">Cordinators</a></menuitem></li>
+                    <li><a href="#Sponsors">Sponsors</a></menuitem></li>
+                    <li><a href="#Reach">Reach Us</a></menuitem></li>
+                </ul>
+            </label>
+        </nav>
+        
+        
+        
+        <!-- -->
+        
+        <section id="About" txt = "c" class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#1e1e1e">
+            <h2 style="padding-bottom: 2vh">About</h2>
+            <h3 style="font-size:1.75em;padding-bottom: 5vh; text-align: center;">All You Need To Know</h2>
             <grid>
                 <div col="1/3">
                     <card style="background-color:#111;color:#fff;"> 
@@ -50,7 +75,7 @@
         </section>
         <section class="sec_class" style="background-color:#1c1c1c;color:#fff;">
             <section>
-                <h2 style="padding-bottom: 5vh">About</h2>
+                
                 <grid>
                     <div col="1/2">
                         <card style="background-color:#111;color:#fff;">
@@ -70,7 +95,7 @@
 
             <!--  Timeline Starts  -->
 
-        <section class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#191919">
+        <section id="Schedule" class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#191919">
             <h2 style="padding-bottom: 5vh; text-align: center;">Schedule</h2>
             <section>
                 <div style="background-color:#111; border-bottom:3px solid #4d6; color:#4d6; text-align:center; padding-top:1em; ">
@@ -156,7 +181,7 @@
 
         </section>
         </section>
-        <section txt=c style="background-color:#161616; width:100%;" class="gridclass">
+        <section id="Cordinators" txt=c style="background-color:#161616; width:100%;" class="gridclass">
             <section>
                 <h2 style="padding-bottom: 5vh">Faculty Organisers</h2>
                 <grid>
@@ -240,7 +265,7 @@
         <!--SPONSORS-->
         
         
-        <section class="sec_class" style="color: white;background-color:#131313">
+        <section id="Sponsors" class="sec_class" style="color: white;background-color:#131313">
             <section>
                 <h2 style="padding-bottom: 5vh">Sponsors</h2>
                 <grid>
@@ -262,7 +287,7 @@
 
 
         <!--FOOTER-->
-        <section class="footer" style="background-color:#101010; padding-top:5vh; padding-bottom:5vh;" >
+        <section id="Reach" class="footer" style="background-color:#101010; padding-top:5vh; padding-bottom:5vh;" >
             <h2>Reach Us</h2>
             <grid>
                 <div col="1/3">
@@ -379,6 +404,7 @@
 
                 background-color:#111;
                 color:#fff;
+                padding-top:1em;
 
             }
 
@@ -467,9 +493,32 @@
                 text-decoration:underline;
             
             }
-                     
-            
 
+            button:hover{
+            
+                background-color:#6f6 !important;
+            
+            }
+            
+            nav ul li a{
+            
+                font-size:1.25em;
+                
+            }
+            
+            nav ul li a:hover{
+                
+                color:#6f6 !important;
+                border-color:#6f6 !important;
+            
+            }
+            
+            nav ul{
+            
+                text-align:center !important;
+                background-color:#111 !important; 
+            
+            }
 
             @media (max-width: 50rem)
             {   
@@ -521,6 +570,20 @@
                     padding-top:1.5rem !important;
                     padding-bottom:1.5rem !important; 
                     margin:0 !important;  
+                }
+                
+                nav:not([class]) label > ul li, nav[xx] label > ul li{
+                
+                    border-top: 0px !important;
+                    border-left:3px solid #4d6;
+                
+                }
+                
+                nav header {
+                
+                    background-color:transparent !important;
+                    opacity:0;
+                
                 }
                 
             }
