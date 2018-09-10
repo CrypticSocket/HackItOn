@@ -590,11 +590,13 @@
                     margin:0 !important;  
                 }
                 
-                nav:not([class]) label > ul li, nav[xx] label > ul li{
-                
-                    border-top: 0px !important;
-                    border-left:3px solid #4d6;
-                
+                nav:not([class]), nav[xx] {
+                    position: fixed;
+                    padding: 0;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    visibility: hidden;
                 }
                 
             }
