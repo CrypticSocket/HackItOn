@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width = device-width, initial-scale = 1, user-scalable=no">
         <link rel="stylesheet" href="css/bare.min.css">
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/office-code-pro" type="text/css"/>
         <link rel="stylesheet" href="./slick/slick.css">
         <link rel="stylesheet" href="./slick/slick-theme.css">
     </head>
@@ -19,23 +19,40 @@
                 <img src="./img/hackiton.png" class="logo" >
             </section>
             <section>
-                <h3>Code | Build | Hack</h3>
-                <h3>29-30 September</h3>
-                <h5>CMR Institute of Technology</h5>
+                <h2 class="fontsize1">Code | Build | Hack</h2>
+                <h4 class="fontsize2">29-30 September | CMR Institute of Technology</h4>
                 <br>
-                <h5> 24 Hour Hackathon </h5>
-                <h5>Exciting Prizes Worth Upto 2.5L To Be Won !</h5>
+                <a href="http://imojo.in/hackiton" target="blank_"><button round primary>Register Now!</button></a><br>
             </section>
-            <section>
-                <h4>Registrations are Open!</h4>
-                <a href="http://imojo.in/hackiton" target="blank_"><button round primary>Register</button></a><br>
-            </section>
+        </section>
+        <section txt = "c" class="gridclass" style="padding-bottom: 5vh; padding-top:5vh; background-color:#191919">
+            <h2 style="padding-bottom: 5vh; text-align: center;">All You Need To Know</h2>
+            <grid>
+                <div col="1/3">
+                    <card style="background-color:#111;color:#fff;"> 
+                        <h3><strong>How long?</strong></h3>
+                        <h4>24 Hour Hackathon</h4>
+                    </card>
+                </div>
+                <div col="1/3">
+                    <card style="background-color:#111;color:#fff;">
+                        <h3><strong>What do we Get?</strong></h3>
+                        <h4>Prizes Worth Upto 2.5L To Be Won !</h4>
+                    </card>
+                </div>
+                <div col="1/3">
+                        <card style="background-color:#111;color:#fff;">
+                        <h3><strong>What more?</strong></h3>
+                        <h4>Opportunity to get an Intership!</h4>
+                    </card>
+                </div>
+            </grid>
         </section>
         <section class="sec_class" style="background-color:#1c1c1c;color:#fff;">
             <section>
                 <h2 style="padding-bottom: 5vh">About</h2>
                 <grid>
-                    <div col="1/2" style="background-color:#111;color:#fff;">
+                    <div col="1/2">
                         <card style="background-color:#111;color:#fff;">
                             <h3>Hack-It-On</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in aliquet nisl. Praesent sed leo congue, fringilla eros eu, tempus metus. Nam mollis odio ipsum, non vehicula ipsum accumsan sodales. Morbi varius vitae elit euismod cursus. Donec a dapibus justo, in facilisis nisi.</p>
@@ -280,7 +297,7 @@
         <style>
 
             body{
-                font-family: 'GidoleRegular';
+                font-family: 'OfficeCodeProDRegular';
                 background-color:#1c1c1c;
                 padding-top: 0px;
                 color:#fff;
@@ -299,6 +316,14 @@
     */
 
             }
+            
+            .fontsize1{
+                font-size: 3.5rem;
+            }
+            
+            .fontsize2{
+                font-size: 2.5rem;
+            }
 
             .img_bg{
                 position: absolute;
@@ -310,12 +335,13 @@
             }
             
             .logo{
-                height:38vh;
+                height:40rem;
+                width: auto;
             }
 
             [btn][primary], button:not([class])[primary], button[xx][primary], input[type=submit][primary]{
                 background-color:#4b4; 
-                font-size:1.65em; 
+                font-size:2em; 
                 padding:0.5em 0.7em;
                 border: 0px;
                 padding-top: 1em;
@@ -483,24 +509,23 @@
                 }
                 
                 .logo{
-                    width: 20rem;
+                    width: 30rem;
+                    height: auto;
+                }
+                
+                .fontsize1{
+                    font-size: 2.5rem;
+                }
+                .fontsize2{
+                    font-size: 2rem;
                 }
                 
                 .banner * {
-                
-                padding-top:0.5em !important;
-                padding-bottom:0.5em !important; 
-                margin:0 !important;
-                
+                    padding-top:2rem !important;
+                    padding-bottom:2rem !important; 
+                    margin:0 !important;  
                 }
                 
-            }
-            
-            
-            [btn][primary]:hover, button:not([class])[primary]:hover, button[xx][primary]:hover, input[type=submit][primary]:hover{
-            
-                background-color:#6c6;
-            
             }
             
         </style>
