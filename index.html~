@@ -190,6 +190,7 @@
             <video controls="controls" class="video" name="Hackiton 2.0 Teaser" src="./vid/teaser.mov">
             </video>
             
+        </section>
 
             <!--  Timeline Starts  -->
 
@@ -696,7 +697,7 @@
 /*            FAQ CSS*/
             #wrap-collabsible {
                 margin-bottom: 0;
-                padding:0;
+                padding-bottom:0.75em;
             }
 
             input[type='checkbox'] {
