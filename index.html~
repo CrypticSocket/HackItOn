@@ -5,6 +5,9 @@
         <title>Hack-It-On 2.0 | Team H CMRIT</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width = device-width, initial-scale = 1, user-scalable=no">
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
         <link rel="stylesheet" href="css/bare.min.css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/office-code-pro" type="text/css"/>
         <link rel="stylesheet" href="./slick/slick.css">
@@ -81,20 +84,14 @@
             <grid>
                 <div col="1/4">
                     <card style="background-color:#111;color:#fff;"> 
-                        <h3><strong>HackDCity</strong></h3>
-                    </card>
-                </div>
-                <div col="1/4">
-                    <card style="background-color:#111;color:#fff;">
-                        <h3><strong>HackDCampus</strong></h3>
+                        <h3><strong>HackBangalore</strong></h3>
                     </card>
                 </div>
             </grid>
-            
+            <h5>Specific Problem Statements will be released on 28th to discourage readymade codes.<br>However a short descriptive video will be sent on 27th</h5>
             <!--FAQ SECTION -->
             
-            <section>
-            
+            <section id="faq">
             <h2 txt="c" style="font-size:1.75em; padding-bottom: 5vh;">FAQs</h2>
             <grid>
                 <div col="2/3" id="wrap-collabsible">
@@ -103,7 +100,7 @@
                   <div class="collapsible-content">
                     <div class="content-inner">
                       <p>
-                        The Themes are already provided on the website, the problem statements under those themes will be provided a day or two before the HackDay so you can brainstorm and be ready with a rough plan.
+                        The Themes are already provided, the problem statements under those themes will be provided a day or two before the HackDay so you can brainstorm and be ready with a rough plan.
                         <br>
                       </p>
                       <br>
@@ -206,7 +203,7 @@
             <grid style="width:70%;margin:auto; padding-bottom:15vh;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day1">
                     <h3>Registration</h3>
-                    <h5>12:00 - 14:30</h5>                   
+                    <h5>14:00 - 15:00</h5>                   
                 </div>
 
                 <div col="1/2" class="empty">
@@ -242,10 +239,6 @@
                 </div>
                 
                 
-                <div col="1/2" txt=c xx class="nonempty left day1">
-                    <h3>Indulging Activity</h3>
-                    <h5>22:30 - 23:30</h5>                   
-                </div>
                 <div col="1/2" class="empty">
                 </div>
             </grid>
@@ -259,41 +252,35 @@
                 </div>
             <grid style="width:70%;margin:auto;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day2">
-                    <h3>Nap Time</h3>
-                    <h5>03:00</h5>                   
-                </div>
-                <div col="1/2" class="empty">
-                </div>
-                <div col="1/2" class="empty">
-                </div>
-                <div col="1/2" txt=c xx class="nonempty right day2">
                     <h3>Breakfast</h3>
-                    <h5>08:00 - 09:00</h5>                   
-                </div>
-                <div col="1/2" txt=c xx class="nonempty left day2">
-                    <h3>Technical Inspection</h3>
-                    <h5>10:00</h5>             
+                        <h5>08:00 - 09:00</h5>                       
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" txt=c xx class="nonempty right day2">
-                    <h3>Lunch</h3>
-                    <h5>13:00 - 14:00</h5> 
+                     <h3>Technical Inspection</h3>
+                                       <h5>10:00</h5>              
                 </div>
                 <div col="1/2" txt=c xx class="nonempty left day2">
+                      <h3>Lunch</h3>
+                                     <h5>13:00 - 14:00</h5>            
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" class="empty">
+                </div>
+                <div col="1/2" txt=c xx class="nonempty right day2">
                     <h3>Hack Ends</h3>
-                    <h3>Evaluation</h3>
-                    <h5>16:00</h5>      
+                        <h3>Evaluation</h3>
+                        <h5>16:00</h5>
+                </div>
+                <div col="1/2" txt=c xx class="nonempty left day2">
+                     <h3>Presentation Of Prototypes</h3>
+                              <h5>16:30</h5>      
                 </div>
                 <div col="1/2" class="empty">
-                </div>
-                <div col="1/2" class="empty">
-                </div>
-                <div col="1/2" txt=c xx class="nonempty right day2">
-                    <h3>Ceremony</h3>
-                    <h5>18:00</h5> 
                 </div>
             </grid>
 
@@ -391,7 +378,7 @@
                         <div>
                             <card xx class="pic-title">
                                 <h3>Shuchi Jani</h3>
-                                <img src="./img/shuchi.jpg" alt="Shuchi">
+                                <img src="./img/shuchi.png" alt="Shuchi">
                             </card>
                         </div>
                         
@@ -427,6 +414,17 @@
         
         
         <section id="Sponsors" class="sec_class" style="color: white;background-color:#131313">
+            <!--
+            <section>
+                <h2>Title Sponsor</h2>
+                
+                <card xx class="pic-title">
+                    <img src="./img/ADD-THE-NAME-OF-THE-FUCKING-TITLE-SPONSOR'S-PIC-HERE.png">
+                </card>
+            
+            </section>
+            -->
+            
             <section>
                 <h2 style="padding-bottom: 5vh">Sponsors</h2>
                 <grid>
@@ -440,6 +438,13 @@
                             <img src="./img/frapp.png">
                         </card>
                     </div>
+                    <!--
+                    <div col="1/3">
+                        <card xx class="pic-title">
+                            <img src="./img/dreamzone.jpg">
+                        </card>
+                    </div>
+                    -->
                 </grid>
             </section>
         </section>
@@ -830,7 +835,7 @@
                 
                 .video{
                 
-                    width:320px;
+                    width:80%;
                 
                 }
                 
