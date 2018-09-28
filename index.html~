@@ -24,7 +24,7 @@
             </section>
             <section>
                 <h2 class="fontsize1">Code | Build | Hack</h2>
-                <h4 class="fontsize2">29-30 September | CMR Institute of Technology</h4>
+                <h4 class="fontsize2">29-30 September, 2018 | CMR Institute of Technology, Bengaluru</h4>
                 <br>
                 <a href="http://imojo.in/hackiton" target="blank_"><button round primary id="regbut">Register Now!</button></a><br>
             </section>
@@ -39,7 +39,7 @@
                 <header>
                 </header>
                 <ul txt="c">
-                    <li><a href="#Register">Register !</a></li>
+                    <li><a href="#Register">Register</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Schedule">Schedule</a></li>
                     <li><a href="#Cordinators">Cordinators</a></li>
@@ -61,20 +61,20 @@
             <grid>
                 <div col="1/3">
                     <card style="background-color:#111;color:#fff;"> 
-                        <h3><strong>What is it, in a nutshell ?</strong></h3>
-                        <h4>Hackiton is a 24 Hour Hackathon</h4>
+                        <h3><strong>What is it?</strong></h3>
+                        <h4>HackItOn 2.0 is a 24 hour hackathon</h4>
                     </card>
                 </div>
                 <div col="1/3">
                     <card style="background-color:#111;color:#fff;">
-                        <h3><strong>What are the rewards ?</strong></h3>
-                        <h4>Prizes Worth Upto 2.5L To Be Won !</h4>
+                        <h3><strong>What are the rewards?</strong></h3>
+                        <h4>Prizes Worth Upto 2.5L To Be Won!</h4>
                     </card>
                 </div>
                 <div col="1/3">
                         <card style="background-color:#111;color:#fff;">
                         <h3><strong>Want even more?</strong></h3>
-                        <h4>Opportunities to get an Internship !</h4>
+                        <h4>Opportunities to get an Internship!</h4>
                     </card>
                 </div>
             </grid>
@@ -84,11 +84,11 @@
             <grid>
                 <div col="1/4">
                     <card style="background-color:#111;color:#fff;"> 
-                        <h3><strong>HackBangalore</strong></h3>
+                        <h3><strong>Hack-Bengaluru</strong></h3>
                     </card>
                 </div>
             </grid>
-            <h5>Specific Problem Statements will be released on 28th to discourage readymade codes.<br>However a short descriptive video will be sent on 27th</h5>
+            <h5>A video that will give you more insight into the event, will be released on 28.8.18 at 4 pm IST<br>This  will give you exactly 24 hours to start your brain storming</h5>
             <!--FAQ SECTION -->
             
             <section id="faq">
@@ -96,7 +96,7 @@
             <grid>
                 <div col="2/3" id="wrap-collabsible">
                   <input id="collapsible" class="toggle" type="checkbox">
-                  <label for="collapsible" class="lbl-toggle">When will the topics be given ?</label>
+                  <label for="collapsible" class="lbl-toggle">When will the topics be given?</label>
                   <div class="collapsible-content">
                     <div class="content-inner">
                       <p>
@@ -110,7 +110,7 @@
                 
                 <div col="2/3" id="wrap-collabsible">
                   <input id="collapsible2" class="toggle" type="checkbox">
-                  <label for="collapsible2" class="lbl-toggle">Is there any particular platform that is to be used ?</label>
+                  <label for="collapsible2" class="lbl-toggle">Is there any particular platform that is to be used?</label>
                   <div class="collapsible-content">
                     <div class="content-inner">
                       <p>
@@ -123,22 +123,8 @@
                 </div>
                 
                 <div col="2/3" id="wrap-collabsible">
-                  <input id="collapsible3" class="toggle" type="checkbox">
-                  <label for="collapsible3" class="lbl-toggle">What exactly does paying 600₹ for the event get you ?</label>
-                  <div class="collapsible-content">
-                    <div class="content-inner">
-                      <p>
-                       In addition to breakfast, lunch and dinner; each participant receives a certificate and each team receives a gift voucher.
-                       <br>
-                      </p>
-                      <br>
-                    </div>
-                  </div>
-                </div>
-                
-                <div col="2/3" id="wrap-collabsible">
                   <input id="collapsible4" class="toggle" type="checkbox">
-                  <label for="collapsible4" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent ?</label>
+                  <label for="collapsible4" class="lbl-toggle">In the payment portal, what does the 'quantity' field represent?</label>
                   <div class="collapsible-content">
                     <div class="content-inner">
                       <p>
@@ -152,7 +138,7 @@
 
                 <div col="2/3" id="wrap-collabsible">
                   <input id="collapsible5" class="toggle" type="checkbox">
-                  <label for="collapsible5" class="lbl-toggle">Why are the details of only one team member required on the payment portal ?</label>
+                  <label for="collapsible5" class="lbl-toggle">Why are the details of only one team member required on the payment portal?</label>
                   <div class="collapsible-content">
                     <div class="content-inner">
                       <p>
@@ -171,8 +157,8 @@
                 <grid class="flex">
                     <div col="1/2">
                         <card style="background-color:#111;color:#fff;height:100%;font-size:1.5rem;">
-                            <h3>Hack-It-On</h3>
-                            <p>Hosted by CMRIT, Hack-It-On is an event to get your Innovation and creativity going. The event which spans 24 hours is all about cooking up ideas and making something new. The competition is the place for coding enthusiasts and techies interested in battle of new ideas.</p>
+                            <h3>Hack-It-On 2.0</h3>
+                            <p>Hosted by CMRIT, Hack-It-On 2.0 is an event to get your Innovation and creativity going. The event which spans 24 hours is all about cooking up ideas and making something new. The competition is the place for coding enthusiasts and techies interested in battle of new ideas.</p>
                         </card>
                     </div>
                     <div col="1/2">
@@ -203,7 +189,7 @@
             <grid style="width:70%;margin:auto; padding-bottom:15vh;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day1">
                     <h3>Registration</h3>
-                    <h5>14:00 - 15:00</h5>                   
+                    <h5>12:00 - 14:00</h5>                   
                 </div>
 
                 <div col="1/2" class="empty">
@@ -216,13 +202,14 @@
 
                 <div col="1/2" txt=c xx class="nonempty right day1">
                     <h3>Opening Ceremony</h3>
-                    <h5>15:00 - 15:30</h5>
+                    <h5>14:00 - 15:15</h5>
                 </div>
 
 
                 <div col="1/2" txt=c xx class="nonempty left day1">
-                    <h3>Event Begins</h3>
-                    <h5>16:00</h5>                   
+                    <h3>Orientation</h3>
+                    <h3>Problem Statements</h3>
+                    <h5>15:15 - 15:30</h5>                   
                 </div>
 
                 <div col="1/2" class="empty">
@@ -234,12 +221,24 @@
                 </div>
 
                 <div col="1/2" txt=c xx class="nonempty right day1">
-                    <h3>Dinner</h3>
-                    <h5>20:00 - 21:00</h5>
+                    <h3>Event Begins</h3>
+                    <h5>16:00</h5>
                 </div>
                 
+                <div col="1/2" txt=c xx class="nonempty left day1">
+                    <h3>Dinner</h3>
+                    <h5>20:00</h5>                   
+                </div>
+
+                <div col="1/2" class="empty">
+                </div>
                 
                 <div col="1/2" class="empty">
+                                    </div>
+                
+                <div col="1/2" txt=c xx class="nonempty right day1">
+                    <h3>Tea</h3>
+                    <h5>23:30</h5>
                 </div>
             </grid>
 
@@ -252,34 +251,42 @@
                 </div>
             <grid style="width:70%;margin:auto;" xx class="sec_class">
                 <div col="1/2" txt=c xx class="nonempty left day2">
-                    <h3>Breakfast</h3>
-                        <h5>08:00 - 09:00</h5>                       
+                    <h3>Tea + Snacks</h3>
+                        <h5>02:30</h5>                       
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" txt=c xx class="nonempty right day2">
-                     <h3>Technical Inspection</h3>
-                                       <h5>10:00</h5>              
+                     <h3>Breakfast</h3>
+                     <h5>08:00</h5>              
                 </div>
                 <div col="1/2" txt=c xx class="nonempty left day2">
-                      <h3>Lunch</h3>
-                                     <h5>13:00 - 14:00</h5>            
+                      <h3>Techhical Inspection</h3>
+                                     <h5>10:00</h5>            
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" class="empty">
                 </div>
                 <div col="1/2" txt=c xx class="nonempty right day2">
-                    <h3>Hack Ends</h3>
-                        <h3>Evaluation</h3>
-                        <h5>16:00</h5>
+                    <h3>Lunch</h3>
+                        <h5>13:00</h5>
                 </div>
                 <div col="1/2" txt=c xx class="nonempty left day2">
-                     <h3>Presentation Of Prototypes</h3>
-                              <h5>16:30</h5>      
+                     <h3>Hack Ends</h3>
+                                  <h3>Evaluation</h3>
+                                  <h5>16:00</h5>
                 </div>
+                <div col="1/2" class="empty">
+                    </div>
+                    <div col="1/2" class="empty">
+                    </div>
+                <div col="1/2" txt=c xx class="nonempty right day2">
+                        <h3>Final Presentation</h3>
+                            <h5>16:30</h5>
+                        </div>
                 <div col="1/2" class="empty">
                 </div>
             </grid>
@@ -414,16 +421,18 @@
         
         
         <section id="Sponsors" class="sec_class" style="color: white;background-color:#131313">
-            <!--
+
             <section>
                 <h2>Title Sponsor</h2>
-                
+                <grid>
+                <div col="1/2">
                 <card xx class="pic-title">
-                    <img src="./img/ADD-THE-NAME-OF-THE-FUCKING-TITLE-SPONSOR'S-PIC-HERE.png">
+                    <img src="./img/tspark.png">
                 </card>
+                </div>
+                </grid>
             
             </section>
-            -->
             
             <section>
                 <h2 style="padding-bottom: 5vh">Sponsors</h2>
@@ -462,8 +471,17 @@
                         <strong>Viral - 8197070241</strong><br>
                         <strong><a href="mailto:hackitoncmr@gmail.com" target="_blank">hackitoncmr@gmail.com</a></strong>
                     </p>
+                    
                 </div>
-                <div col="1/3"></div>
+                <div col="2/6">
+                
+                <div>
+                    <a href="https://goo.gl/maps/Ykx3A4qQHEq">
+                    <img height="300" width="300" src="./img/map.png">
+                    </a>
+                </div>
+                
+                </div>
                 <div col="1/3">
                     <grid>
                         <div fx col="1/3">   
